@@ -84,6 +84,9 @@ DATABASES = {
         'NAME': 'octofit_db',
         'HOST': 'localhost',
         'PORT': 27017,
+        'USER': '',  # Add MongoDB username if required
+        'PASSWORD': '',  # Add MongoDB password if required
+        'AUTH_SOURCE': 'admin',  # Specify the authentication database
     }
 }
 
